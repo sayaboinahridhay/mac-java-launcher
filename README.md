@@ -66,7 +66,7 @@ If you would like to require a specific JDK release, such as JDK 1.7, then you
 can change the value to `1.7*`. If you would like to allow for any release
 _after_ a specific release, such as JDK 1.7, then you can specify the value with
 a `+`--like `1.7+`--to allow any JDK to be used _starting_ with that relase and
-up (e.g., JDK 1.8 would also work).
+newer versions (e.g., JDK 1.8 would also work).
 
 `mac-java-launcher` replaces the default launcher shipped with the application
 and `mac-java-launcher` requires no JDK by itself (it will replace launcher only
